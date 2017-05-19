@@ -1,0 +1,95 @@
+@CHARSET "UTF-8";
+div,p,span,h3,b,iframe{
+    margin: 0;
+    padding: 0;
+}
+ 
+.green-ui-dialog{
+    position:absolute;
+    display: none;
+    border: 1px solid #343A41;
+    font-size: 12px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+    background-color: #FFFFFF;
+}
+ 
+.green-ui-dialog-titleBox{
+    height: 30px;
+    line-height: 30px;
+    margin-top: 0px;
+    background-color: #343A41;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+ 
+.green-ui-dialog-titleBox h3{
+    margin-left: 8px;
+    float: left;
+}
+ 
+.green-ui-dialog-titleBox p{
+    margin-left: 30px;
+    margin-right: 8px;
+    float: right;
+}
+ 
+.green-ui-dialog-titleBox p span{
+    text-align: right;
+}
+ 
+.green-ui-dialog-close{
+    cursor: pointer;
+    color: red;
+}
+ 
+.green-ui-dialog-contentBox{
+    position: "absolute";
+    margin-left: auto;
+    margin-right: auto;
+    right: "0px";
+    left: "0px";
+    display: table;
+    text-align: center;
+    /*border: 1px solid red;*/
+}
+ 
+.green-ui-dialog-contentBox span{
+    /*border: 1px solid red;*/
+    padding: 20px 10px;
+    vertical-align: middle;
+    display: table-cell; 
+}
+ 
+.green-ui-dialog-contentBox iframe{
+    /*border-style: none;*/
+    border: 1px solid green;
+    padding: 1px 1px;
+    vertical-align: middle;
+    display: table-cell; 
+}
+ 
+ 
+.green-ui-dialog-buttonBox{
+    height: 35px;
+    line-height: 35px;
+    padding-right: 8px;
+    border-top: 1px solid #C1C4CA;
+    background-color: #F6F6F6;
+    color: #FFFFFF;
+}
+ 
+.green-ui-dialog-buttonBox p{
+    margin-left: 8px;
+    float: right;
+}
+ 
+.green-ui-dialog-button{
+    padding: 3px 10px;
+    background-color: #55606E;
+}
+ 
+.green-ui-dialog-button-change{
+    padding: 3px 10px;
+    cursor: pointer;
+    background-color: #343A41;
+}
